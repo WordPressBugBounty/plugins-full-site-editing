@@ -3,7 +3,7 @@ Contributors: automattic
 Tags: block, blocks, editor, gutenberg, page
 Requires at least: 5.5
 Tested up to: 6.3
-Stable tag: 4.30504
+Stable tag: 4.30505
 Requires PHP: 5.6.20
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -39,6 +39,9 @@ This plugin is experimental, so we don't provide any support for it outside of w
 
 == Changelog ==
 View the commit history here: https://github.com/Automattic/wp-calypso/commits/trunk/apps/editing-toolkit
+
+= 4.30505 =
+* Security: the public newspack-blocks/v1/articles REST endpoint now only serves publicly viewable post types, so it no longer discloses published posts belonging to post types a site keeps off the front end.
 
 = 2.21 =
 * Focused Launch: redirect to checkout after launch for eCommerce plan in Calypso (https://github.com/Automattic/wp-calypso/pull/50267)
